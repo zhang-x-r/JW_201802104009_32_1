@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/JW_201802104009_31web/build/
+/JW_201802104009_31web/build/classes/java/main/
