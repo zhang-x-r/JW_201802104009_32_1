@@ -26,6 +26,7 @@ public class DepartmentController extends HttpServlet {
         String paraType = request.getParameter("paraType");
         //创建JSON对象message，以便往前端响应信息
         JSONObject message = new JSONObject();
+
         try {
             //如果id = null, 表示响应所有院系对象，否则响应id指定的院系对象
             if (id_str != null) {
